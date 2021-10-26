@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+	font-family: 'buble';
+	src: url('../_fonts/bubblegum-sans-regular.otf') format('opentype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'computer';
+	src: url('../_fonts/computer-font.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+
+body { color: black;
+	background-color: #dddddd;
+	
+}
+	.rowsection {border-top: solid black 2px;}
+
+	.container {
+			box-shadow: 0px 0px 5px 2px black;
+			background: white;
+	}
+
+	article {margin-top: 2%;
+			margin-bottom:3%;}
+
+
+	/*aqui comeca a header*/
+	
+	header .titulo-glass {
+					padding: 1.5% 2%;
+				}
+
+	
+	header .titulo-glass h1 {font-size: 2em;
+							font-family:buble ;
+							color: #5d5d5d;  
+						}
+
+						
+
+	h2 {color: dimgray;
+		font-size: 1.1em;
+		font-weight: bold;
+		
+		
+	}
+
+		/*aqui começa o menu*/
+		#menu ul {list-style-type: none;
+				  text-transform: uppercase;
+				  display: block;
+				  float: right;
+				  width: 83%;}
+
+			#menu ul li {padding: 0 1% 1% 1%;
+								   margin: 0 1% 0 1%;
+								   background: #d9cfcf;
+								   display: inline-block;
+								   
+			}
+
+				#menu ul li a {color:black;
+				text-decoration: none;}
+				#menu ul li:hover{background-color: #606060;							  
+
+				}
+				#menu ul li a:hover{
+					color: white;
+				}
+
+				/*aqui termina o menu*/
+
+				header #icone{
+							position: absolute;
+							left: 545;
+							top: 33;
+				}
+
+				/*aqui termina a header*/
+
+                iframe#frame-spacs{
+                    width: 75%;
+                    height: 100%;
+                    overflow: hidden;
+                }
+
+
+                footer p{						
+                    font-size: 0.9em;
+                    padding: 2% 0%;
+                 
+             }
